@@ -46,6 +46,8 @@ limpa()
     leia(op)
   } 
 
+limpa ()
+
   se (op == '+') {
 
     resultado = (num1)+(num2) 
