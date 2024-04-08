@@ -1,0 +1,56 @@
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    background: linear-gradient(90deg, rgba(46,171,246,1) 2%, rgba(86,240,255,1) 52%, rgb(225, 253, 255) 100%);    color: #fffafa;
+    font-size: 20px;
+    font-family: "Caveat";
+    line-height: 50px;
+    text-align: center;
+}
+
+menu {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 214, 234);
+    font-family: "Montserrat";
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(46,171,246,1);
+}
+
+footer{
+    text-align: center;
+    font-size: 40px;
+    color: #fffafa;
+    font-family: "Caveat" cursive;
+}
+
+button {
+    width: 10%;
+    height: 5%;
+    background-color: rgba(46,171,246,1);
+    color: #ffffff;
+    font-family: "Montserrat";
+}
+
+button:hover {
+    background-color: rgb(35, 133, 194);
+}
+
