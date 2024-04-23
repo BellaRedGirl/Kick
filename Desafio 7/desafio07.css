@@ -1,6 +1,6 @@
 /*Referente ao banner*/
 
-.header img {
+header img {
     width: 100%;
 }
 
@@ -56,13 +56,13 @@
 
 /*Organização do Footer*/
 
-.footer h3 {
+footer h3 {
     font-family: "Abel";
     color: #4eb1fc;
     text-align: center;
 }
 
-.footer .imagens {
+footer .imagens {
     width: 40px;
     height: 40px;
     display: flex;
@@ -85,7 +85,7 @@
         height:280px;
     }
 
-    .footer .imagens {
+    footer .imagens {
         width: 40px;
         height: 40px;
         display: flex;
