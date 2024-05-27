@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerando um nome random</title>
+</head>
+<body>
+    <h1></h1>
+    <script>
+     function nomeAleatorio(){
+        const nomes = [
+            "Luiz",
+            "Amanda",
+            "Bruna",
+            "Juliana",
+            "Sarah",
+            "Noah",
+            "Julio",
+            "Raissa",
+            "Caio",
+            "André",
+        ];
+        const nomeAleatorio = nomes[Math.floor(Math.random() * nomes.length)];
+        document.querySelector('h1').textContent = nomeAleatorio;
+        return nomeAleatorio;
+     }
+     
+     window.onload = nomeAleatorio;
+    </script>
+</body>
+</html>
