@@ -1,0 +1,114 @@
+body {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/*Menu*/
+#menu .botao{ 
+    background-color: #55cca1;
+    padding:0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right; 
+    height: 40px;
+    align-items: center;
+}
+
+
+.botao li { 
+    display: flex; 
+    justify-content: space-around;
+    width: 10%;
+}
+
+.botao li a {
+    border-radius: 7px;
+    background-color: #c7efcb;
+    font-size: 15px; 
+    color: #32a47a; 
+    text-decoration: none;
+}
+
+
+.botao li a:hover { 
+    color: #1d805c;
+} 
+
+/*Cadastro*/
+
+.containerForm {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-image: url('imagens/banner.jpeg');
+    background-size: 100% 500px;
+
+}
+
+.cadastro {
+    font-family: "Bad Script";
+    font-size: 15px;
+    color: #1d805c;
+    width: 20%;
+    height: 80%;
+    background-color: #8bc591;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%; 
+    border-radius: 10%;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+.cadastro input {
+   border-radius: 10px;
+   width: 80%;
+   height: 30px;
+}
+
+.infos {
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.titulo {
+    color: #1d805c;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+}
+
+.titulo h1 {
+    font-family: "Bad Script";
+}
+
+.titulo h3 {
+    font-family: "Pompiere";
+    font-size: 25px;
+}
+
+.imagem {
+    height: 80%;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imagem img{
+    height: 300px;
+    width: 300px;
+}
+
